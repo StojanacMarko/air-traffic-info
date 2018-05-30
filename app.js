@@ -134,5 +134,4 @@ document.getElementById("flight-list").addEventListener("click", function(e) {
 
     main.insertAdjacentHTML("afterbegin", singleOutput);
 
-    console.log(singleOutput);
 });
