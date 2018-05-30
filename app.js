@@ -96,7 +96,7 @@ function showPosition(position) {
 function showError(error) {
     switch(error.code) {
         case error.PERMISSION_DENIED:
-            document.getElementById("geo-error").innerText = "User denied the request for Geolocation."
+            document.getElementById("geo-error").innerText = "User denied the request for Geolocation. In order to continue please allow Geolocation."
             break;
         case error.POSITION_UNAVAILABLE:
             document.getElementById("geo-error").innerText = "Location information is unavailable."
