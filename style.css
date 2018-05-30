@@ -152,14 +152,12 @@ header {
 
 #geo-error {
     text-align: center;
-    margin: 0 auto;
-    font-size: 25px;
+    font-size: 30px;
     width: 70%;
-    color: red;
-    text-transform: uppercase;
-    background-color: white;
+    color: #333;
     position: absolute;
-    top: 200px;
+    top: 350px;
+    left: calc(50% - 35%);
 }
 
  @media only screen and (max-width: 720px) {
@@ -167,4 +165,9 @@ header {
     #flight-list li {
         flex-direction: column;
         width: 100%;
+    }
+     
+     #geo-error {
+        top: 250px;
+    }
 }
